@@ -14,7 +14,7 @@ class TestVarasto(unittest.TestCase):
         self.assertAlmostEqual(self.varasto.lisaa_varastoon(-10), None)
 
     def test_otetaan_negatiivinen_varastosta(self):
-        self.assertAlmostEqual(self.varasto.ota_varastosta(-10), 0)
+        self.assertAlmostEqual(self.varasto.ota_varastosta(-10), i)
 
     def test_varasto_negatiivinen_varasto_luo_tyhjan_varaston(self):
         uusiVarasto = Varasto(-10)
