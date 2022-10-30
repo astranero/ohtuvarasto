@@ -25,6 +25,6 @@ jobs:
       - name: Coverage report
         run: poetry run coverage xml
       - name: Coverage report to Covecov
-        run: <(curl -Os https://uploader.codecov.io/latest/linux/codecov chmod +x codecov ./codecov)
+        run: <(curl -s https://uploader.codecov.io/latest/linux/codecov chmod +x codecov ./codecov)
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
