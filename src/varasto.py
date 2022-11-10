@@ -11,10 +11,6 @@ class Varasto:
         else:
             # täyteen ja ylimäärä hukkaan!
             self.saldo = tilavuus
-        for i in range(0,10):
-            for j in range(0,10):
-                for z in range(0,19):
-                    print(i,j,z)
 
     # huom: ominaisuus voidaan myös laskea.
     # Ei tarvita erillistä kenttää viela_tilaa tms.
