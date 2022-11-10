@@ -1,6 +1,4 @@
-import unittest
 from varasto import Varasto
-
 
 def main():
     mehua = Varasto(100.0)
@@ -53,7 +51,6 @@ def main():
     saatiin = mehua.ota_varastosta(-32.9)
     print(f"saatiin {saatiin}")
     print(f"Mehuvarasto: {mehua}")
-
 
 if __name__ == "__main__":
     main()
